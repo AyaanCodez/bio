@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #13192b, #161c31);
+    color: rgb(240, 240, 240);
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+main {
+    padding: 20px;
+    text-align: left;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    top: 50%;
+    left:50%;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.container {
+    background: linear-gradient(to bottom, #273358, #171c2e);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+}
+
+
+@keyframes levitate {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+footer {
+    padding: 75px 0;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10%;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    filter: brightness(0) invert(1);
+    /* Makes the icons white */
+    transition: filter 0.3s ease;
+}
+
+.icon.discord {
+    background-image: url('https://img.icons8.com/?size=100&id=25627&format=png&color=000000');
+}
+.icon.gmail {
+    background-image: url('https://img.icons8.com/?size=100&id=38159&format=png&color=000000');
+}
+.icon.instagram {
+    background-image: url('https://img.icons8.com/?size=100&id=wrwXlOVAFfeY&format=png&color=000000');
+}
+
+.icon.youtube {
+    background-image: url('https://img.icons8.com/?size=100&id=37325&format=png&color=000000');
+}
+
+.icon.pinterest {
+    background-image: url('https://img.icons8.com/?size=100&id=AsaZwSlMN1uF&format=png&color=000000');
+}
+.icon.github {
+  background-image: url('https://img.icons8.com/sf-black-filled/64/github.png');
+}
+.icon:hover.discord {
+  filter: brightness(0) invert(35%) sepia(100%) saturate(1600%) hue-rotate(190deg) brightness(100%) contrast(97%);
+    /* Discord's official color */
+}
+
+.icon:hover.instagram {
+    filter: brightness(1) invert(40%) sepia(100%) saturate(2000%) hue-rotate(310deg) brightness(100%) contrast(97%);
+        /* Instagram's official color */
+}
+
+.icon:hover.youtube {
+  
+    filter: brightness(1) invert(20%) sepia(100%) saturate(2000%) hue-rotate(0deg) brightness(90%) contrast(150%);
+    /* YouTube's official color */
+}
+
+.icon:hover.pinterest {
+  filter: brightness(0) invert(35%) sepia(100%) saturate(2000%) hue-rotate(10deg) brightness(100%) contrast(97%);
+    /* Pinterest's official color */
+}
+.icon:hover.gmail {
+  filter: brightness(0) invert(60%) sepia(100%) saturate(2000%) hue-rotate(210deg) brightness(100%) contrast(97%);
+    /* Pinterest's official color */
+}
+.icon:hover.github {
+  filter: brightness(0) invert(60%) ;
+    /* Pinterest's official color */
+}
+.skills-section {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.label {
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+body {
+    font-family:sans-serif;
+    background: linear-gradient(to bottom, #1f2846, #181e31);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-heading {
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.7em;
+    margin-bottom: 50px;
+    color: #ffffff;
+    /* Navy blue text */
+}
+
+.description {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #ffffff;
+    /* Navy blue text */
+}
+
+.main-heading {
+    border: 2px solid #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+    padding: 0px 10px;
+    font-weight: 900;
+    font-size: 1.1em;
+    line-height: 1;
+    box-sizing: border-box;
+    height: 40px
+}
+
+
+@keyframes levitate {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.loading-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px; /* Adjust as needed */
+    margin-bottom: 30px;
+  }
+  
+  .loading-dots span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%;
+    animation: loading 0.6s infinite alternate;
+  }
+  
+  .loading-dots span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .loading-dots span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes loading {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-10px);
+      opacity: 0.5;
+    }
+  }
+  
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(to bottom, #1f2846, #181e31);
+}
+
+header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.logo-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+
+  
+  .circle {
+    position:absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+     transform: translate(-50%, -50%);
+     align-items: center;
+
+    top: 50%; /* Center vertically */
+    left: 50%; 
+  }
+  
+  .main-logo {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    align-items: center;
+
+  }
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .footer-icons a {
+    margin: 0 10px;
+    transition: color 0.1s ease, filter 0.1s ease;
+  }
+  
+  .footer-icons a img {
+    filter: grayscale(100%) brightness(2);
+    transition: filter 0.1s ease;
+  }
+  
+  .ring {
+    width: 200px; /* Ensure this is larger than the logo */
+    height: 200px;
+    border: 3px solid white; /* Adjust thickness as needed */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .ring:hover {
+    border-radius: 50%;
+    
+    border-color:  #0e5d9f #99186a;
+    
+  }
+  
+  
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .verification-container {
+    text-align: center;
+    background: linear-gradient(to bottom, #212b4b, #1d243a);
+    padding: 45px;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }  
+ 
