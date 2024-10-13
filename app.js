@@ -8,7 +8,7 @@ particlesJS('particles-js', {
       }
     },
     color: {
-      value: ['#ff007f', '#0096FF'] // Pink and Blue
+      value: ['#0026FF', '#00F5FF'] // Pink and Blue
     },
     shape: {
       type: 'circle',
